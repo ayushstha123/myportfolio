@@ -33,7 +33,7 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <model-viewer src="./files/shiba.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls tone-mapping="neutral" poster="poster.png" shadow-intensity="1">
+          <model-viewer src="./files/airplane.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls tone-mapping="neutral" poster="poster.png" shadow-intensity="1">
             <div slot="hotspot-1" style={{ position: 'relative', top: '90%', left: '50%', transform: 'translate(-0%, -50%)', color: 'white', fontSize: '24px', fontWeight: 'normal', animation: 'jump 1s infinite' }}>
               This is a dog, he is very good
             </div>
