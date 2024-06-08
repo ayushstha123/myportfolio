@@ -34,7 +34,7 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <model-viewer src="./files/shiba.glb" ar ar-placement="wall" ></model-viewer>
+          <model-viewer src="./files/shiba.glb" ar  ></model-viewer>
         </div>
       </section>
       <section class="bg-white dark:bg-sky-800" >
