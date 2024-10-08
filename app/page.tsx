@@ -4,7 +4,24 @@ export default function Home() {
   return (
     <>
     <Nav />
-    <h1 className="text-6xl font-bold ">Ayush</h1>
+    <section className="flex justify-center items-center h-screen">
+      <h1 className="text-4xl font-bold">
+        Hi , Im Ayush
+      </h1>
+      
+      </section>
+      <section className="flex justify-center items-center h-screen">
+      <h1 className="text-4xl font-bold">Home</h1>
+      
+      </section>
+      <section className="flex justify-center items-center h-screen">
+      <h1 className="text-4xl font-bold">Home</h1>
+      
+      </section>
+      <section className="flex justify-center items-center h-screen">
+      <h1 className="text-4xl font-bold">Home</h1>
+      
+      </section>
     </>
   );
 }
