@@ -8,18 +8,30 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: {
+          100: '#E2E8F0', // Light shade, replace with your desired color
+          900: '#525252', // Dark shade, replace with your desired color
+        },
+      },
       keyframes: {
         bgScroll: {
           '0%': { backgroundPosition: '200% 0, 0 0' },
           '100%': { backgroundPosition: '-100% 0, 0 0' },
         },
+        shine: {
+          '0%': { backgroundPosition: '200% 0%' },
+          '100%': { backgroundPosition: '-200% 0%' },
+        },
+       'spin-slow': {
+          from: { transform: 'rotate(0deg)' },
+          to: { transform: 'rotate(360deg)' },
+        },
       },
       animation: {
         bgScroll: 'bgScroll 4.5s infinite 7s', // 8s delay, infinite loop
-      },
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'spin-slow': 'spin-slow 5s linear infinite',
+        shine: 'shine 3s linear infinite',
       },
     },
   },

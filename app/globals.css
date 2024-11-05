@@ -2,22 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 *{
   font-family: 'Cabinet Grotesk', sans-serif;
-}
-.wavy-border {
-  background-image: url('/public/pngegg.png'); /* Replace with the path to your image */
-  background-repeat: repeat-x; /* Repeat the image horizontally */
-  height: 100px; /* Adjust height depending on your image dimensions */
-  background-size: contain; /* Make sure the image maintains aspect ratio */
-  transform: rotate(180deg); /* Rotate to fit if necessary */
-  width: 100%; /* Make the background cover the full width */
-}
-@keyframes bgScroll {
-  0% { background-position: 200% 0, 0 0; }
-  100% { background-position: -100% 0, 0 0; }
-}
-
-.animate-bgScroll {
-  animation: bgScroll 1.5s infinite;
 }
