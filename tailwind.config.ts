@@ -13,6 +13,10 @@ const config: Config = {
           100: '#E2E8F0', // Light shade, replace with your desired color
           900: '#525252', // Dark shade, replace with your desired color
         },
+        secondary: {
+          100: '#faaf46', // Light shade, replace with your desired color
+          900: '#525252', // Dark shade, replace with your desired color
+        },
       },
       keyframes: {
         bgScroll: {

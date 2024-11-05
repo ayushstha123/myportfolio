@@ -9,22 +9,22 @@ const Nav = () => {
   before:bg-no-repeat before:animate-bgScroll ">
         <div className="text-4xl text-white">Ayush</div>
         <div className="flex flex-row gap-3 text-white">
-          <div className='group overflow-hidden relative cursor-pointer text-lg uppercase leading-6 text-white'>
+          <div className='group overflow-hidden relative cursor-crosshair  text-lg uppercase leading-6 text-white'>
             <span className='font-md inline-block p-1 transition duration-500 ease-out group-hover:-translate-y-[120%]'>Home</span>
             <span className='font-md absolute left-0 translate-y-[120%] rotate-120  inline-block p-1 transition duration-500 ease-out group-hover:translate-y-0 group-hover:rotate-0'>Home</span>
           </div>
 
-          <div className='group overflow-hidden relative cursor-pointer text-lg uppercase leading-6 text-white'>
+          <div className='group overflow-hidden relative cursor-crosshair text-lg uppercase leading-6 text-white'>
             <span className='font-md inline-block p-1 transition duration-500 ease-out group-hover:-translate-y-[120%]'>About</span>
             <span className='font-md absolute left-0 translate-y-[120%] rotate-120  inline-block p-1 transition duration-500 ease-out group-hover:translate-y-0 group-hover:rotate-0'>About</span>
           </div>
           
-          <div className='group overflow-hidden relative cursor-pointer text-lg uppercase leading-6 text-white'>
+          <div className='group overflow-hidden relative cursor-crosshair text-lg uppercase leading-6 text-white'>
             <span className='font-md inline-block p-1 transition duration-500 ease-out group-hover:-translate-y-[120%]'>Projects</span>
             <span className='font-md absolute left-0 translate-y-[120%] rotate-120  inline-block p-1 transition duration-500 ease-out group-hover:translate-y-0 group-hover:rotate-0'>Projects</span>
           </div>
 
-          <div className='group overflow-hidden relative cursor-pointer text-lg uppercase leading-6 text-white'>
+          <div className='group overflow-hidden relative cursor-crosshair text-lg uppercase leading-6 text-white'>
             <span className='font-md inline-block p-1 transition duration-500 ease-out group-hover:-translate-y-[120%]'>Contacts</span>
             <span className='font-md absolute left-0 translate-y-[120%] rotate-120  inline-block p-1 transition duration-500 ease-out group-hover:translate-y-0 group-hover:rotate-0'>Contacts</span>
           </div>
