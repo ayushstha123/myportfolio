@@ -4,25 +4,33 @@ const Nav = () => {
   return (
     <div className=" sticky top-0">
       {/* Navbar */}
-      <div className="flex w-full font-bold bg-blue-600 justify-between items-center p-5">
+      <div className="w-full justify-between flex items-center whitespace-nowrap px-3.5 py-4 text-sm font-medium text-slate-200 bg-gradient-to-r from-slate-800 to-slate-700 shadow focus:outline-none focus:ring focus:ring-slate-500/50 focus-visible:outline-none focus-visible:ring focus-visible:ring-slate-500/50 relative 
+  before:absolute before:inset-0 before:rounded-[inherit] before:bg-[linear-gradient(45deg,transparent_25%,theme(colors.white/.5)_50%,transparent_75%,transparent_100%)] before:bg-[length:250%_250%,100%_100%] 
+  before:bg-no-repeat before:animate-bgScroll">
         <div className="text-4xl text-white">Ayush</div>
         <div className="flex flex-row gap-4 text-white">
-          <div className="cursor-pointer hover:underline">Home</div>
-          <div className="cursor-pointer hover:underline">About</div>
-          <div className="cursor-pointer hover:underline">Projects</div>
-          <div className="cursor-pointer hover:underline">Contacts</div>
+          <div className='group overflow-hidden relative cursor-pointer text-lg uppercase leading-6 text-white'>
+            <span className='font-md inline-block p-1 transition duration-500 ease-out group-hover:-translate-y-[120%]'>Home</span>
+            <span className='font-md absolute left-0 translate-y-[120%] rotate-120  inline-block p-1 transition duration-500 ease-out group-hover:translate-y-0 group-hover:rotate-0'>Home</span>
+          </div>
+
+          <div className='group overflow-hidden relative cursor-pointer text-lg uppercase leading-6 text-white'>
+            <span className='font-md inline-block p-1 transition duration-500 ease-out group-hover:-translate-y-[120%]'>About</span>
+            <span className='font-md absolute left-0 translate-y-[120%] rotate-120  inline-block p-1 transition duration-500 ease-out group-hover:translate-y-0 group-hover:rotate-0'>About</span>
+          </div>
+          
+          <div className='group overflow-hidden relative cursor-pointer text-lg uppercase leading-6 text-white'>
+            <span className='font-md inline-block p-1 transition duration-500 ease-out group-hover:-translate-y-[120%]'>Projects</span>
+            <span className='font-md absolute left-0 translate-y-[120%] rotate-120  inline-block p-1 transition duration-500 ease-out group-hover:translate-y-0 group-hover:rotate-0'>Projects</span>
+          </div>
+
+          <div className='group overflow-hidden relative cursor-pointer text-lg uppercase leading-6 text-white'>
+            <span className='font-md inline-block p-1 transition duration-500 ease-out group-hover:-translate-y-[120%]'>Contacts</span>
+            <span className='font-md absolute left-0 translate-y-[120%] rotate-120  inline-block p-1 transition duration-500 ease-out group-hover:translate-y-0 group-hover:rotate-0'>Contacts</span>
+          </div>
         </div>
       </div>
 
-      {/* Repeating wavy border */}
-      <div className="border-blue-600 border-b-2 rotate-180 bottom-0 left-0 right-0 h-1 bg-repeat-x" 
-           style={{
-            backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 25' preserveAspectRatio='none'%3E%3Cpath d='M0 20 C 20 0, 60 0, 90 20 C 95 20, 100 20, 100 20' fill='rgba(14.51%25,%2038.82%25,%2092.16%25,%201)' /%3E%3C/svg%3E")`,
-            backgroundSize: '20px 15px',   
-         
-             height: '11px'
-           }}>
-      </div>
     </div>
   );
 };
