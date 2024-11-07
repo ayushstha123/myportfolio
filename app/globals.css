@@ -5,6 +5,7 @@
 
 *{
   font-family: 'Cabinet Grotesk', sans-serif;
+  scroll-behavior: smooth;
 }
 
 @layer base {

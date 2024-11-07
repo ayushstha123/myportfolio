@@ -36,8 +36,8 @@ export const HomeHero = () => {
             <div className="  flex flex-col items-center px-2 pb-[20vw] lg:pb-[4vw]">
                 <h1 className="md:pt-16 h_title  relative w-full text-center text-[15vw] font-bold  leading-[80%] lg:text-[8.7vw] ">
                     <span className="-mb-1.5 -mt-6 inline-block overflow-hidden align-bottom">
-                        <span className="bg-fractal-noise bg-clip-text text-white underline inline-block translate-y-full pb-1.5 pt-6 will-change-transform ">
-                            Fullstack&nbsp;
+                        <span className=" bg-neutral-300 text-neutral-800 inline-block translate-y-full pb-1.5 pt-6 will-change-transform ">
+                        Fullstack
                         </span>
                     </span>
                     <span className="-mb-1.5 -mt-6 inline-block overflow-hidden align-bottom">
@@ -53,7 +53,7 @@ export const HomeHero = () => {
                         </span>
                     </span>
                     <span className=" -mb-1.5 -mt-6 inline-block overflow-hidden align-bottom">
-                        <span className="inline-block  translate-y-full pb-1.5 pt-6 will-change-transform">
+                        <span className=" underline inline-block  translate-y-full pb-1.5 pt-6 will-change-transform">
                             &nbsp;Developer
                         </span>
                     </span>
@@ -82,12 +82,13 @@ export const HomeHero = () => {
                     </span>
 
                     <span className="-mb-1.5 -mt-6 inline-block overflow-hidden align-bottom">
-                        <span className="from-accent-foreground inline-block  translate-y-full pb-1.5 pt-6 will-change-transform">
-                            &nbsp;to build
+
+                        <span className="inline-block  translate-y-full pb-1.5 pt-6 will-change-transform">
+                             &nbsp;to build
                         </span>
                     </span>
-                    <span className=" -mb-1.5 -mt-6 inline-block align-bottom">
-                        <span className="inline-block  translate-y-full pb-1.5 pt-2 will-change-transform">
+                    <span className="rotate-3 -mb-1.5 -mt-6 inline-block overflow-hidden align-bottom">
+                        <span className="-inset-1italic  inline-block translate-y-full pb-1.5 pt-6 will-change-transform">
                             <svg className='animate-spin-diff transform w-16 h-16' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" fill="#FFFFFF"><path d="m240 240 160-80v-.7A79.8 79.8 0 0 0 320.7 80h-.7l-80 160ZM240 240 160 80h-.7A79.8 79.8 0 0 0 80 159.3v.7l160 80ZM240 240l80 160h.7a79.8 79.8 0 0 0 79.3-79.3v-.7l-160-80ZM240 240 80 320v.7a79.8 79.8 0 0 0 79.3 79.3h.7l80-160ZM240 240l169.7 56.6.5-.5a79.8 79.8 0 0 0 0-112.2l-.5-.5L240 240ZM240 240l56.6-169.7-.5-.5a79.8 79.8 0 0 0-112.2 0l-.5.5L240 240ZM240 240l-56.6 169.7.5.5a79.8 79.8 0 0 0 112.2 0l.5-.5L240 240ZM240 240 70.3 183.4l-.5.5a79.8 79.8 0 0 0 0 112.2l.5.5L240 240Z"></path></svg>
                         </span>
                     </span>
@@ -109,7 +110,7 @@ export const HomeHero = () => {
                         </span>
                     </span>
                     <span className="rotate-3 -mb-1.5 -mt-6 inline-block overflow-hidden align-bottom">
-                        <span className="-inset-1italic  inline-block translate-y-full pb-1.5 pt-6 will-change-transform">
+                        <span className="-inset-1italic bg-slate-300 inline-block translate-y-full pb-1.5 text-black pt-6 will-change-transform">
                             &nbsp;Innovative
                         </span>
                     </span>

@@ -62,6 +62,10 @@ const config: Config = {
   					backgroundPosition: '-100% 0, 0 0'
   				}
   			},
+			  loopTextLeft: {
+				'0%': { transform: 'translateX(0)' },
+				'100%': { transform: 'translateX(-100%)' },
+			  },
   			shine: {
   				'0%': {
   					backgroundPosition: '200% 0%'
@@ -91,8 +95,11 @@ const config: Config = {
   			bgScroll: 'bgScroll 4.5s infinite 7s',
   			'spin-slow': 'spin-slow 4.5s linear infinite',
 			'spin-diff': 'spin-diff 5s ease-in infinite',
-  			shine: 'shine 3s linear infinite'
+  			shine: 'shine 3s linear infinite',
+			  loopL: 'loopTextLeft  4s linear infinite',
   		},
+		 
+		 
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
