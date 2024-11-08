@@ -9,6 +9,8 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+		backgroundImage: {
+'fractal-noise-white': "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' fill='%23ffffff' filter='url(%23a)'/%3E%3C/svg%3E\")"		  },
 		colors: {
   			primary: {
 				100: '#E2E8F0', // Light shade, replace with your desired color
@@ -54,6 +56,7 @@ const config: Config = {
   			}
   		},
   		keyframes: {
+			
   			bgScroll: {
   				'0%': {
   					backgroundPosition: '200% 0, 0 0'
@@ -62,6 +65,7 @@ const config: Config = {
   					backgroundPosition: '-100% 0, 0 0'
   				}
   			},
+			  
 			  loopTextLeft: {
 				'0%': { transform: 'translateX(0)' },
 				'100%': { transform: 'translateX(-100%)' },
@@ -96,7 +100,8 @@ const config: Config = {
   			'spin-slow': 'spin-slow 4.5s linear infinite',
 			'spin-diff': 'spin-diff 5s ease-in infinite',
   			shine: 'shine 3s linear infinite',
-			  loopL: 'loopTextLeft  4s linear infinite',
+			  loopL: 'loopTextLeft 4s linear infinite',
+
   		},
 		 
 		 

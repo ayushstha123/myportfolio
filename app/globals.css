@@ -6,6 +6,11 @@
 *{
   font-family: 'Cabinet Grotesk', sans-serif;
   scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+::selection{
+  background-color: #c4c4c4;
+  color: black;
 }
 
 @layer base {
