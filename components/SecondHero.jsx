@@ -41,7 +41,7 @@ export const SecondHero = () => {
         <section className='bg-neutral-900 text-white min-h-screen pt-[50px] pb-[5px] lg:py-[100px]'>
 
             <div className=' px-10 font-extrabold group  overflow-hidden flex flex-col cursor-crosshair '>
-                <span className=' -rotate-6 text-neutral-100 inline-block text-9xl md:text-[12vw]  '>
+                <span className=' -rotate-6 text-neutral-100 inline-block pt-2 text-9xl md:text-[16vw]  '>
                 <span className="inline-block overflow-hidden align-bottom">
                             <span className=" underline tracking-tight 
         animate-shine !bg-clip-text text-transparent

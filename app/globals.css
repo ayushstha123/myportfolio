@@ -9,7 +9,7 @@
     scroll-snap-type: y mandatory;
 }
 ::selection{
-  background-color: #c4c4c4;
+  background-color: #ceffe3;
   color: black;
 }
 
