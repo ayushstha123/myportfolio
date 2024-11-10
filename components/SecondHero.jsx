@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
-import { Globe, Globe2 } from 'lucide-react';
 
 export const SecondHero = () => {
     const titleRef = useRef(null);

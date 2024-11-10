@@ -3,6 +3,7 @@ import Nav from '../components/Nav.jsx'
 import {HomeHero} from '../components/Hero.jsx'
 import {SecondHero} from '../components/SecondHero.jsx'
 import {LoopRight} from '../components/LoopRight.jsx'
+import {Projects} from '../components/Projects.jsx'
 
 export default function Home() {
   return (
@@ -13,9 +14,7 @@ export default function Home() {
 <LoopRight/>
 </section>
       <SecondHero/>
-      <section className="flex justify-center items-center h-screen">
-        <h1 className="text-4xl font-bold">Home</h1>
-      </section>
+        <Projects/>
       <section className="flex justify-center items-center h-screen">
         <h1 className="text-4xl font-bold">Home</h1>
       </section>
