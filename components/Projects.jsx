@@ -52,6 +52,7 @@ export const Projects = () => {
        [background:radial-gradient(circle_at_center,theme(colors.primary.900_/_85%),transparent)_-200%_50%_/_200%_100%_no-repeat,theme(colors.primary.100)] underline  font-extrabold  inline-block  translate-y-full pb-1.5  pt-6  leading-[81%] will-change-transform ">
             Projects</span>
         </h1>
+        <p className="text-zinc-300 font-light m-2">Featured Projects</p>
       </div>
       <motion.div
         initial="initial"
@@ -103,7 +104,7 @@ const Block = ({ className, ...rest }) => {
 };
 
 const HeaderBlock = () => (
-  <div className="bg-neutral-600 mx-auto grid max-w-4xl grid-flow-dense grid-cols-12 gap-4 my-6 p-5 rounded-md">
+  <div className="bg-gradient-to-r from-neutral-200  to-neutral-500 mx-auto grid max-w-4xl grid-flow-dense grid-cols-12 gap-4 my-6 p-5 rounded-md">
     <Block className="col-span-12 row-span-2 md:col-span-6 ">
       <svg className="animate-spin-slow mb-4 size-14 rounded-full"
         viewBox="0 0 512 512" id="icons" xmlns="http://www.w3.org/2000/svg"><polyline points="201.14 64 256 32 310.86 64" fill="white" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" class="svg-elem-1"></polyline><line x1="256" y1="32" x2="256" y2="112" fill="none" stroke="white" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" class="svg-elem-2"></line><polyline points="310.86 448 256 480 201.14 448" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" class="svg-elem-3"></polyline><line x1="256" y1="480" x2="256" y2="400" fill="none" stroke="white" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" class="svg-elem-4"></line><polyline points="64 207.51 64 144 117.15 112.49" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" class="svg-elem-5"></polyline><line x1="64" y1="144" x2="131.29" y2="184" fill="none" stroke="white" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" class="svg-elem-6"></line><polyline points="448 304.49 448 368 394.85 399.51" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" class="svg-elem-7"></polyline><line x1="448" y1="368" x2="380.71" y2="328" fill="none" stroke="white" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" class="svg-elem-8"></line><polyline points="117.15 400 64 368 64 304.49" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" class="svg-elem-9"></polyline><line x1="64" y1="368" x2="130.64" y2="328" fill="none" stroke="white" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" class="svg-elem-10"></line><polyline points="394.85 112.49 448 144 448 207.51" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" class="svg-elem-11"></polyline><line x1="448" y1="144" x2="380.71" y2="184" fill="none" stroke="white" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" class="svg-elem-12"></line><polyline points="256 320 256 256 310.86 224" fill="none" stroke="white" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" class="svg-elem-13"></polyline><line x1="256" y1="256" x2="201.14" y2="224" fill="none" stroke="white" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" class="svg-elem-14"></line> </svg>
@@ -132,7 +133,7 @@ const HeaderBlock = () => (
 );
 
 const HeaderBlockTwo = () => (
-  <div className=" bg-neutral-200  mx-auto grid max-w-4xl grid-flow-dense grid-cols-12 gap-4 my-6 p-5 rounded-md">
+  <div className="bg-gradient-to-r from-neutral-200  to-neutral-500 mx-auto grid max-w-4xl grid-flow-dense grid-cols-12 gap-4 my-6 p-5 rounded-md">
     <Block className="col-span-12 row-span-2 md:col-span-6 ">
       <Code className="mb-2 size-12  animate-bounce"  />
       <h1 className="mb-12 text-5xl  font-bold leading-tight">
